@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_member_info_additional_members",
+  "info": {
+    "displayName": "Additional Member",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    }
+  }
+}
