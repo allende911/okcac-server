@@ -37,6 +37,19 @@
       "type": "component",
       "repeatable": false,
       "component": "member-info.additional-member"
+    },
+    "interest": {
+      "type": "enumeration",
+      "enum": [
+        "astrophotography",
+        "borrow",
+        "cro",
+        "community",
+        "education",
+        "observing",
+        "other",
+        "otsp"
+      ]
     }
   }
 }
