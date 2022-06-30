@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_products_info_supplementals",
+  "info": {
+    "displayName": "supplemental",
+    "icon": "money-bill-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "stripeID": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    }
+  }
+}

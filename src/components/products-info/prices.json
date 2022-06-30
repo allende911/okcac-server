@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_products_info_prices",
+  "info": {
+    "displayName": "prices",
+    "icon": "dollar-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "stripeID": {
+      "type": "string"
+    },
+    "refID": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

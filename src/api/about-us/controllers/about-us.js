@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  imaging controller
+ *  about-us controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::imaging.imaging');
+module.exports = createCoreController('api::about-us.about-us');

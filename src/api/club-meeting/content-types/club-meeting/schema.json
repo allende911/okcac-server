@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "club_meetings",
+  "info": {
+    "singularName": "club-meeting",
+    "pluralName": "club-meetings",
+    "displayName": "Club Meeting"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "dateTime": {
+      "type": "datetime",
+      "required": true
+    },
+    "location": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "speaker": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "boilerplate": {
+      "type": "text"
+    }
+  }
+}

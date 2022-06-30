@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "alerts",
+  "info": {
+    "singularName": "alert",
+    "pluralName": "alerts",
+    "displayName": "Alerts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "active": {
+      "type": "boolean",
+      "default": true
+    },
+    "alertType": {
+      "type": "enumeration",
+      "enum": [
+        "error",
+        "success",
+        "warning",
+        "info"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "expires": {
+      "type": "date"
+    }
+  }
+}
